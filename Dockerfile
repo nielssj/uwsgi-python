@@ -4,5 +4,4 @@ RUN apt-get update && apt-get install -y uwsgi uwsgi-plugin-python python-psycop
 EXPOSE 5000
 COPY app /app/
 ADD uwsgi.ini /etc/uwsgi/apps-enabled/
-ADD sources.list /etc/apt/
 RUN rm /var/lib/apt/lists/*dists*

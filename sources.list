@@ -1,2 +1,0 @@
-deb http://172.17.42.1:3142/debian wheezy main
-deb http://172.17.42.1:3142/security wheezy/updates main
